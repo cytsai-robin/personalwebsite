@@ -4,21 +4,28 @@ const callouts = [
     {
         // name: 'Desk and Office',
         // description: 'Work from home accessories',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+        name: 'Robin (蔡家洋)',
+        description: 'Chia-Yang Tsai',
+        imageSrc: './src/icon/19013_2.GIF',
         imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
         href: '#',
     },
     {
-        name: 'Chia-Yang Tsai',
-        description: 'A graduate student in the GIEE, NTU',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+        // name: 'Self-Improvement',
+        // description: 'Journals and note-taking',
+        name: 'M.S. in Electrical Engineering',
+        description: 'National Taiwan University (NTU)',
+        // imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+        imageSrc: 'https://scontent.ftpe7-3.fna.fbcdn.net/v/t31.18172-8/18588810_1344443432300046_1042641851849514143_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=6A1ecY_HFjsAX_w_szP&_nc_ht=scontent.ftpe7-3.fna&oh=00_AfBx71oSkY4e0MlNoWIq_ZzPrXwkoeI0m0uiA0zKmKvwdw&oe=6453D464',
         imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
         href: '#',
     },
     {
         // name: 'Travel',
         // description: 'Daily commute essentials',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+        name: 'R11921A03',
+        description: 'r11921a03@ntu.edu.tw',
+        imageSrc: './src/icon/SHUTTERSTOCK.JPG', //reference: PIXEL-SHOT/SHUTTERSTOCK
         imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
         href: '#',
     },
@@ -39,7 +46,7 @@ export function RootIndex() {
         <div className="bg-gray-100">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                    <h2 className="text-2xl font-bold text-gray-900">R11921A03 蔡家洋</h2>
+                    <h2 className="text-3xl font-bold text-gray-900">Intro</h2>
 
                     <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                         {callouts.map((callout) => (
