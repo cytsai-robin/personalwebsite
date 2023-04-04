@@ -1,4 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
+import Pic1 from "../assets/19013_2.gif";
+import Pic2 from "../assets/SHUTTERSTOCK.jpg";
 
 const callouts = [
     {
@@ -6,7 +8,7 @@ const callouts = [
         // description: 'Work from home accessories',
         name: 'Robin (蔡家洋)',
         description: 'Chia-Yang Tsai',
-        imageSrc: './src/icon/19013_2.GIF',
+        imageSrc: Pic1,
         imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
         href: '#',
     },
@@ -25,7 +27,7 @@ const callouts = [
         // description: 'Daily commute essentials',
         name: 'R11921A03',
         description: 'r11921a03@ntu.edu.tw',
-        imageSrc: './src/icon/SHUTTERSTOCK.JPG', //reference: PIXEL-SHOT/SHUTTERSTOCK
+        imageSrc: Pic2, //reference: PIXEL-SHOT/SHUTTERSTOCK
         imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
         href: '#',
     },
