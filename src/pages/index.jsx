@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import Pic1 from "../assets/19013_2.gif";
-import Pic2 from "../assets/SHUTTERSTOCK.jpg";
+import Pic2 from "../assets/1000_DSC08121_preview-800x531.jpeg";
+import Pic3 from "../assets/SHUTTERSTOCK.jpg";
 
 const callouts = [
     {
@@ -18,7 +19,8 @@ const callouts = [
         name: 'M.S. in Electrical Engineering',
         description: 'National Taiwan University (NTU)',
         // imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-        imageSrc: 'https://scontent.ftpe7-3.fna.fbcdn.net/v/t31.18172-8/18588810_1344443432300046_1042641851849514143_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=6A1ecY_HFjsAX_w_szP&_nc_ht=scontent.ftpe7-3.fna&oh=00_AfBx71oSkY4e0MlNoWIq_ZzPrXwkoeI0m0uiA0zKmKvwdw&oe=6453D464',
+        // imageSrc: 'https://scontent.ftpe7-3.fna.fbcdn.net/v/t31.18172-8/18588810_1344443432300046_1042641851849514143_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=6A1ecY_HFjsAX_w_szP&_nc_ht=scontent.ftpe7-3.fna&oh=00_AfBx71oSkY4e0MlNoWIq_ZzPrXwkoeI0m0uiA0zKmKvwdw&oe=6453D464',
+        imageSrc: Pic2, //reference: https://shop.press.ntu.edu.tw/shop/life/deco/ntu-badge-banner-black/
         imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
         href: '#',
     },
@@ -27,7 +29,7 @@ const callouts = [
         // description: 'Daily commute essentials',
         name: 'R11921A03',
         description: 'r11921a03@ntu.edu.tw',
-        imageSrc: Pic2, //reference: PIXEL-SHOT/SHUTTERSTOCK
+        imageSrc: Pic3, //reference: PIXEL-SHOT/SHUTTERSTOCK
         imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
         href: '#',
     },
